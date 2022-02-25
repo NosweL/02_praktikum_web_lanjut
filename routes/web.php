@@ -17,7 +17,7 @@ Route::get('/', function () {
     echo('selamat datang');
 });
 Route::get('/about', function () {
-    return('2041720253, Welson Mario Naibaho, TI2C');
+    return('2041720253 <br> Welson Mario Naibaho <br> TI2C');
 });
 Route::get('/articles/{id}', function ($id) {
     return('halaman article dengan id '.$id);
